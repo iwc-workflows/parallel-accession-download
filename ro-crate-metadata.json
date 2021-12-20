@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2021-07-26T10:22:23.303007",
+            "datePublished": "2021-12-20T17:04:47.622964",
             "hasPart": [
                 {
                     "@id": "parallel-accession-download.ga"
@@ -42,7 +42,8 @@
                 {
                     "@id": "#test1"
                 }
-            ]
+            ],
+            "name": "parallel-accession-download/main"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -69,12 +70,12 @@
                     "@id": "https://github.com/galaxyproject/iwc"
                 }
             ],
-            "name": "Parallel Accession Download",
+            "name": "parallel-accession-download/main",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/parallel-accession-download",
-            "version": "0.1.1"
+            "version": "0.1.2"
         },
         {
             "@id": "#galaxy",
@@ -122,7 +123,7 @@
             "@id": "#test1_1",
             "@type": "TestInstance",
             "name": "test1_1",
-            "resource": "repos/galaxyproject/iwc/actions/workflows/workflow_test.yml",
+            "resource": "repos/iwc-workflows/parallel-accession-download/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
             },
@@ -145,7 +146,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.74.6"
+            "engineVersion": ">=0.74.9"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
