@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2023-09-05T08:29:48.601016",
+            "datePublished": "2023-09-12T13:46:41.022242",
             "hasPart": [
                 {
                     "@id": "parallel-accession-download.ga"
@@ -75,7 +75,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/parallel-accession-download",
-            "version": "0.1.4"
+            "version": "0.1.5"
         },
         {
             "@id": "#galaxy",
