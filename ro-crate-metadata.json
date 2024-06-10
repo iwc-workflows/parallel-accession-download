@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2024-04-22T11:45:22.529281",
+            "datePublished": "2024-06-10T13:43:17.509153",
             "hasPart": [
                 {
                     "@id": "parallel-accession-download.ga"
@@ -75,7 +75,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/parallel-accession-download",
-            "version": "0.1.13"
+            "version": "0.1.14"
         },
         {
             "@id": "#galaxy",
@@ -146,7 +146,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.22"
+            "engineVersion": ">=0.75.23"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
